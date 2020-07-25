@@ -4,9 +4,11 @@ Description: A website for a made up online store in which customers can browse 
 
 # Required 
   Xampp application installed 
+  Nodepad or Nodepad ++ installed
   
 # To make the code work
 
+Copy and paste the code from this repository into Nodepad and save the files with the same names as listed above
 You will need to have all the program files inside the "htdocs" folder in the xampp program folders in the Program Files folder in the C drive.
 In addition you will need to use the Apache server which xampp provides. 
 You will need to go to google to browse to the directory in which the files are located on your localhost server and run the files using xampp.
