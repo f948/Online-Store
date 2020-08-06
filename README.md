@@ -2,6 +2,8 @@
 
 Description: A website for a made up online store in which customers can browse available products and select what they want to purchase.Their purchases will be recorded in a table and they can alter the quantity of the product that they want to buy.There is also a database which will record the purchases of the customers and any inquiries that they submit. 
 
+Video walkthrough avaliable at https://www.youtube.com/watch?v=Gz8dEQfmX7g
+
 # Required 
   Xampp application installed 
   Nodepad or Nodepad ++ installed
