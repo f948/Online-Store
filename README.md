@@ -2,7 +2,7 @@
 
 Description: A website for a made up online store in which customers can browse available products and select what they want to purchase.A user can create an account and then add funds into their account so they can buy products from the store.
 
-Video walkthrough avaliable at https://www.youtube.com/watch?v=Gz8dEQfmX7g
+Video walkthrough avaliable at https://www.youtube.com/watch?v=oU6RYm2XAJE&t=1s
 
 
 
