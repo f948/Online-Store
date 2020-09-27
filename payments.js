@@ -8,6 +8,10 @@ var usernameExists=false,passwordExists=false,login=false,userExists=false;
 var adminPassword="Administrator@09";
 
 
+app.get('/', function (req, res) {
+	res.sendfile("products.html");
+});
+
 app.get('/products.html', function (req, res) {
 	res.sendfile("products.html");
 });
