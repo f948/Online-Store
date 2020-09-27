@@ -7,6 +7,7 @@ var i,purchaseId=0,connectedUsers=0;
 var usernameExists=false,passwordExists=false,login=false,userExists=false;
 var adminPassword="Administrator@09";
 
+const port = process.env.PORT || 3000
 
 app.get('/', function (req, res) {
 	res.sendfile("products.html");
@@ -195,6 +196,6 @@ io.on('connection', function(socket) {
 	});
 });
 	
-http.listen(60274, function() {
-   console.log('listening on localhost:60274');
+http.listen(port, function() {
+   console.log('listening on localhost:'+port);
 });
