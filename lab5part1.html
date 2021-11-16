@@ -1,0 +1,65 @@
+<html>
+
+
+How many rows do you want?
+<br>
+<input type="text" id="rows">
+<br>
+How many columns do you want?
+<br>
+<input type="text" id="cols">
+<br>
+<input type="button" onclick="submit()" value="Submit">
+<script>
+
+	var rows = document.getElementById("rows");
+	var cols = document.getElementById("cols");
+	
+	var errorMessages="";
+	
+	
+	
+	function submit(){
+		
+		errorMessages="";
+		
+		if (rows.value <3 || rows.value > 12){
+			errorMessages+="Number of rows must be in the range of 3-12"+"\n";
+		}
+		if (cols.value <3 || cols.value > 12){
+			errorMessages+="Number of cols must be in the range of 3-12"+"\n";
+		}
+	
+		if (errorMessages != ""){
+		
+		
+			alert(errorMessages);
+		
+			rows.value="";
+			cols.value="";
+		}
+	
+		else{
+		
+			var table="";
+		
+			for(var i =1;i<=parseInt(rows.value);i++){
+		
+				for(var j =1;j<=parseInt(cols.value);j++){
+	
+					table+=i*j.toString()+" ";
+				}
+			
+				table+="\n";
+			}
+		
+			alert(table);
+		}
+		
+	}
+
+</script>
+</html>
+
+
+
